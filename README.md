@@ -7,10 +7,13 @@ See the full website here: https://anaula.github.io/Sample-LawOffice-Website/
 ## Website Page examples
 
 - Home Page
+
 ![Website snapshot](/snaps/Homepage.PNG)
 
 - Featured Cases Page when width of browser is significantly reduced
+
 ![Website responsive snapshot](/snaps/Featured-Cases-responsive.PNG)
 
 - Our Team Page when width of browser is reduced to phone screen size
+
 ![Website responsive snapshot](/snaps/Our-Team-responsive.PNG)
