@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LS Law Firm - Contact Us</title>
+    <script src="https://kit.fontawesome.com/77a0a9d83c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="body-wrapper">
+        <div class="top-logo-number-section">
+            <div class="logo">
+                <h1>LS Law Firm</h1>
+                <p>There for you, always</p>
+            </div>
+
+
+            <div class="number-box">
+                <h2>000-000-0000</h2>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="border-both">Home</a></li>
+                <li><a href="howWeHelp.html" class="border-right">How we help</a></li>
+                <li><a href="featuredCases.html" class="border-right">Featured Cases</a></li>
+                <li><a href="OurTeam.html" class="border-right">Our Team</a></li>
+                <li><a href="ContactUs.html" class="border-right">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="contactUs-topic-section">
+            <div class="contactUs-topic-text">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+
+        <div class="contactUs-summary-section">
+            <div class="contactUs-summary-text">
+                <p>Email: <span class="highlight">lscontact@xyz.com</span> </p>
+                <p>Phone: <span class="highlight">000-000-0000</span> </p>
+            </div>
+        </div>
+
+        <div class="contactUs-form-section">
+            <form action="process.php" method="post">
+
+                <div class="contactUs-instructions">
+                    <h2>Please fill out all sections</h2>
+                </div>
+
+                <div class="name-section">
+
+                    <div>
+                        <label for="fName">First Name:</label>
+                        <input type="text" name="firstName" id="fName" required/>
+                    </div>
+                    <div>
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lastName" id="lName" required/>
+                    </div>
+
+                </div>
+                <!--Name section end-->
+
+                <div class="email-section">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required/>
+                </div>
+                <!--Email section end-->
+
+                <div class="phone-section">
+                    <label for="phoneNum">Phone Number: </label>
+                    <input type="tel" name="phone-Number" id="phoneNum" required/>
+                </div>
+                <!--Phone Number section-->
+
+                <div class="state-category-section">
+                    <div>
+                        <label for="state">State:</label>
+                        <input type="text" name="state" id="state" required/>
+                    </div>
+
+                    <div>
+                        <label for="category">Category</label>
+                        <select name="category" id="category" required>
+                            <option></option>
+                            <option value="Finance">Finance</option>
+                            <option value="Friminal">Criminal</option>
+                            <option value="Insurance">Insurance</option>
+                            <option value="Inquiry">Inquiry</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <!--State-category section end-->
+
+                <div class="message-section">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" rows="8" columns="50" required></textarea>
+                </div>
+
+                <div class="button-section">
+                    <input type="submit" value="Submit" class="btn" />
+                    <p>Please allow us two to three business days to respond!</p>
+                </div>
+                <!--Button section end-->
+
+            </form>
+
+        </div>
+        <!--ContactUs-from-section end-->
+
+        <footer>
+            &copy; 2022 LS Law Firm
+        </footer>
+    </div>
+    <!--Body wrapper-->
+</body>
+</html>
